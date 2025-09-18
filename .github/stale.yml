@@ -1,0 +1,33 @@
+# ---------------------------------------------
+# GitHub Stale Bot Configuration
+# Automatically marks and closes inactive issues/PRs
+# ---------------------------------------------
+
+# Number of days of inactivity before marking as stale
+daysUntilStale: 60
+
+# Number of days after being marked stale before closing
+daysUntilClose: 7
+
+# Issues/PRs with these labels will never be marked stale
+exemptLabels:
+  - pinned
+  - security
+
+# Label to apply when marking as stale
+staleLabel: wontfix
+
+# Message posted when an issue/PR is marked as stale
+# Set to false to disable
+markComment: >
+  👋 This issue has been automatically marked as **stale** 
+  due to 60 days of inactivity.  
+  It will be closed in 7 days if no further activity occurs.  
+  Thank you for your contributions!
+
+# Message posted when an issue/PR is closed for being stale
+# Set to false to disable
+closeComment: >
+  🚫 This issue has been automatically **closed** due to prolonged inactivity.  
+  If the problem still exists, please comment or re-open the issue.  
+  Feel free to tag maintainers if further attention is needed.

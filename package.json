@@ -1,0 +1,11 @@
+{
+  "name": "land-registration-blockchain",
+  "version": "1.0.0",
+  "description": "Afriland blockchain project",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "tsehay",
+  "license": "MIT"
+}
